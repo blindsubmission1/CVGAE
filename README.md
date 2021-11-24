@@ -74,3 +74,12 @@ and for image retrieval model:
 ```
 python train_script.py --name trained_model_name --ds mit --ir_model --eval
 ```
+
+## Derivation of ELBO
+
+<p align="center">
+  <img src="Screenshot 2021-11-24 at 23.28.21.png" />
+</p>
+
+
+
