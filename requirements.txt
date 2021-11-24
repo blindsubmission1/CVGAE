@@ -1,0 +1,14 @@
+torch==1.10.0
+torchvision
+numpy
+scikit-learn
+scikit-image
+pillow
+gensim
+tqdm
+tensorboard
+
+-f https://data.pyg.org/whl/torch-1.10.0+cu102.html
+torch-scatter 
+torch-sparse
+torch-geometric
