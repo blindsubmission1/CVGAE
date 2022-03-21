@@ -163,7 +163,7 @@ class CVGAE(gnn.VGAE):
         adj = coo_matrix(adj)
         self.node_dim = 150
         if not self.dset.name == 'CGQA':
-          self.hparam.add('shared_emb_dim', 1500)
+          self.hparam.add('shared_emb_dim', 1600)
           self.hparam.add_dict({'graph_encoder_layers': [2048], 'node_dim': 150})
         else: # Due to memory issue we use less dimensions for CGQA
           self.hparam.add('shared_emb_dim', 800)
